@@ -7,7 +7,7 @@ let advice=document.getElementById('advice');
 setTimeout(() => {
     var displayAdvc=obj.slip.advice;
     advice.innerHTML=displayAdvc;
-}, 1500);
+}, 1800);
 let btn=document.getElementById('btn');
 btn.addEventListener('click',troll);
 function troll(){
