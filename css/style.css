@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Ubuntu', sans-serif;
+    overflow: hidden;
 }
 body{
     background-image: url("../img/advice.webp");
@@ -18,7 +19,7 @@ h1{
     color: white;
 }
 .container{
-    height: 90vh;
+    height: 83vh;
     max-width: 100%;
     /* border: 2px solid black; */
     display: flex;
@@ -44,10 +45,16 @@ h1{
     border-radius: 2vh;
     font-size: 3vh;
     cursor: pointer;
+    text-align: center;
 }
 .btn:hover{
     background-color: green;
 }
 .advice img{
     width: 39vh;
+}
+.footer{
+    text-align: center;
+    font-size: 3vh;
+    font-weight: 725;
 }

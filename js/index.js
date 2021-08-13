@@ -13,3 +13,11 @@ let btn = document.getElementById('btn');
 btn.addEventListener('click', () => {
     advice.innerHTML = ` <img src="./img/trollFace.gif" alt="trollFace" srcset="">`
 });
+let footer=document.getElementById('footer');
+
+setInterval(() => {
+    let a=(Math.floor(Math.random() * 255));
+    let b=(Math.floor(Math.random() * 255));
+    let c=(Math.floor(Math.random() * 255));
+    footer.style.color=`rgb(${a},${b},${c})`;
+}, 1000);
